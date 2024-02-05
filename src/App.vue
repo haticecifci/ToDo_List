@@ -1,9 +1,9 @@
 <template>
   
   <h1>
-    Toplam Görev /{{ data.length }} <br>
-    Tamlamlanan Görev/{{ getComplated }} <br>
-    Tamamlanmamış Görev/ {{ getRemaind }}
+    Toplam Görev / {{ data.length }} <br>
+    Tamlamlanan Görev / {{ getComplated }} <br>
+    Tamamlanmamış Görev / {{ getRemaind }}
   </h1>
   <div>
     <input placeholder="Bir görev gir" @keydown="onKeyDown" v-model="model" class="todo-input">
